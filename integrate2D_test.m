@@ -1,5 +1,5 @@
 fun = @(x,y) (-1/4*pi)*sin(y);
-int = integral2(fun,0,pi,0,2*pi)
+q0 = integral2(fun,0,pi,0,2*pi)
 
 
 fun = @(x,y) 1./( sqrt(x + y) .* (1 + x + y).^2 );
